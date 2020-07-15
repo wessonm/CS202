@@ -1,0 +1,67 @@
+/*
+Style Sheet for Justice Banson
+* version: 9.0
+* last modified: 10.31.2020
+* author: Justice Banson
+* email: justice@justicebanson.com;
+* website: Lesson 9.
+ */
+/*!
+ * Font Awesome Free 5.13.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+/* google font */
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.box {
+  border-radius: 3px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 120%;
+  background-color: #22bbd4;
+  padding: 2em;
+}
+
+.box1 {
+  border-radius: 3px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 120%;
+  background-color: #2c6e78;
+  padding: 2em;
+}
+
+.box2 {
+  border-radius: 3px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 120%;
+  background-color: dodgerblue;
+  padding: 2em;
+}
+
+.box3 {
+  border-radius: 3px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 120%;
+  background-color: darkcyan;
+  padding: 2em;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/@fontawesome/fonaewsome-free/css/all.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <title>Lesson 2 | HTML Work Form & CSS</title>
+</head>
+<body>
+    
+    <i class="fas fa-copyright"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+
+    <div class="container">
+        <h1 class="text-center my-3">HTML Web Forms</h1>
+
+    <!-- form attributes - action, method (POST, GET) -->
+    <!-- text, email, password, textarea, select, checkbox, radio, submit -->
+
+    <form action="submit.php" method="POST" autocomplete name="" id="">
+        <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" name="password" id="password" class="form-control">
+        </div>
+
+        <div class="form-check">
+            <label for="gender" class="form-check-label">Agree to the Terms and Conditions</label>
+            <input type="radio" name="gender" id="gender" class="form-check-input">
+        </div>
+        <div class="form-check form-switch">
+            <label for="change" class="form-check-label">Switch</label>
+            <input type="radio" name="change" id="change" class="form-check-input">
+        </div>
+        <div class="form-group">
+            <label for="select" class="form-label">City</label>
+            <select name="select" id="select" class="form-select">
+                <option value="1">Seattle</option>
+                <option value="2">Bellingham</option>
+                <option value="3">Tacoma</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label class="form-label">
+            <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        <input type="submit" value="submit" class="btn btn-success">
+    </form>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

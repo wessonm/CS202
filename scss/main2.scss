@@ -1,0 +1,68 @@
+/* 
+ * Style Sheet for CS202
+ * Version 2.0 
+ * Last modified: 6.29.2020
+ * Author: Max Wesson
+ * Email: wessonm@wwu.edu
+ * Website: CSCI 202 Lesson 3
+*/
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js");
+
+// Style rule
+
+/* 
+selector{declaration;} 
+selector{property:value;}
+*/
+
+// css variables
+:root {
+    --main-color:#05a081;
+}
+
+// scss variables
+$primary: red;
+$margin: 22px;
+
+body{
+    // Important rule
+    background:#fffef0 !important;
+
+    // Font
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 150%;
+    text-transform: uppercase; */
+    // Font shorthand
+    // font: font-style font-variant font-weight font-size/line-height font-family;
+    /* font: italic bold 18px/150% Arial; */
+    // nesting properties
+    /* font: {
+        style: italic;
+        weight: bold;
+        family: Arial;
+    }
+
+    text: {
+        transform: uppercase;
+    } */
+}
+
+h2{
+    color: var(--main-color);
+}
+
+h3 {
+    color: $primary;
+}
+
+// nesting element
+nav {
+    color: blue;
+    a {
+        text-decoration: none;
+    }
+}
