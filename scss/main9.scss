@@ -1,0 +1,75 @@
+/*
+Style Sheet for CS202
+* version: 17.0
+* last modified: 08.03.2020
+* author: Max Wesson
+* email: wessonm@wwu.edu
+* website: lesson 17
+*/
+/* 
+Contents:
+1. Imports
+2. Variables
+3. Body
+4. Testimonials
+*/
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+@import "../node_modules/owl.carousel/src/scss/owl.theme.default.scss";
+
+// variables
+$main-color: #ff007f;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.display-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 10%;
+    text-align: center;
+
+    .img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .description {
+        h2 {
+            color: $main-color;
+            text-transform: uppercase;
+        }
+
+        .fa-star {
+            color: $main-color;
+        }
+    }
+
+    .owl-dot {
+        outline: none !important;
+    }
+}
